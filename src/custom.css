@@ -1,0 +1,16 @@
+.hero{
+    background-image:linear-gradient(90deg ,#03305F 18%, #03305f2d),url("./assets/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second{
+    background-image:linear-gradient(90deg ,#03305fd4 18%, #03305fc5),url("./assets/second.PNG");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.parallax{
+    background-attachment: fixed;
+}

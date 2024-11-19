@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Montserrat",
+        serif;
+}
+.btn{
+    width: 180px;
+    background-color: #03305F;
+    padding-block: 8px;
+    color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+}
