@@ -1,6 +1,6 @@
 .hero{
     background-image:linear-gradient(90deg ,#03305F 18%, #03305f2d),url("./assets/hero.jpg");
-    background-position: center;
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -11,6 +11,16 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.parallax{
-    background-attachment: fixed;
+
+.third{
+    background-image:linear-gradient(90deg ,#03305fd4 18%, #03305fc5),url("./assets/third.png");
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fifth{
+    background-image:linear-gradient(90deg ,#03305fd4 18%, #03305fc5),url("./assets/fifth.PNG");
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
