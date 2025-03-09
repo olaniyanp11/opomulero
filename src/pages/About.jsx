@@ -21,16 +21,16 @@ export const About = () => {
                     transition={{ duration: 0.5 }} >
                     <img src={Fourth} alt="" />
                 </motion.div>
-                <div className="  md:w-1/2">
-                    <motion.h3 className='pt-5 font-bold text-[30px] text-secondary text-center pb-5 leading-8' initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}> Transformative Finance</motion.h3>
-                    <motion.p initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>Opomulero Capitals is an innovative asset management company that merges profitability with social impact. We provide public investors an opportunity to invest in Market funding, giving Retail Traders soft loans, getting interests while empowering Retail Traders to scale their trades.
+                <div className="  md:w-1/2" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
+                    <motion.h3 className='pt-5 font-bold text-[30px] text-secondary text-center pb-5 leading-8' > Transformative Finance</motion.h3>
+                    <motion.p >Opomulero Capitals is an innovative asset management company that merges profitability with social impact. We provide public investors an opportunity to invest in Market funding, giving Retail Traders soft loans, getting interests while empowering Retail Traders to scale their trades.
                         With us, your investment works in two ways:
 
                     </motion.p >
 
                     <motion.p  ><span className='text-secondary font-bold'>Generate Sustainable income:</span> Earn regular returns from the trade of many Retail Traders who actively make daily sales.
                         <br />
-                        <span className='text-secondary font-bold'> Empower Local drivers:</span> At the end of the investment cycle, Retail traders becomes active merchants in their trade, creating a path to financial independence.
+                        <span className='text-secondary font-bold'> Empower Retail Traders:</span> At the end of the investment cycle, Retail traders becomes active merchants in their trade, creating a path to financial independence.
                     </motion.p >
                 </div>
 

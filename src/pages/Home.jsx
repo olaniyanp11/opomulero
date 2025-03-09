@@ -42,9 +42,9 @@ export const Home = () => {
           <motion.div className='w-[300px] sm:w-1/2 bg-white text-secondary leading-3 mt-[-40px] items-center gap-3 flex flex-col text-center border border-secondary p-3'>
             <LuHeartHandshake className=' text-[30px] ' />
             <motion.div className="flex justify-center font-bold gap-10">
-              <motion.p>
+              <motion.p className='leading-5'>
                 IMPACTING TRADERS </motion.p>
-              <motion.p> RECIEVING PROFITS</motion.p>
+              <motion.p className='leading-5'> RECIEVING PROFITS</motion.p>
             </motion.div>
           </motion.div>
         </motion.div>
@@ -105,9 +105,9 @@ export const Home = () => {
           <motion.p>Opomulero Capitals is not just an investment, its a movement toward sustainable livelihoods and community growth.
 
           </motion.p>
-          <motion.h3 className='font-bold pt-2'> By the end of 12-month period</motion.h3>
+          <motion.h3 className='font-bold pt-2'>By the end of the year</motion.h3>
           <motion.p className=''>1. Retail trader scale their businesses, securing financial independence <br />
-            2. Investors walks away with substantial returns and the satisfaction of creating positive social change in the society.
+             2. Investors walks away with substantial returns and the satisfaction of creating positive social change in the society.
           </motion.p>
         </motion.div>
 
